@@ -1,0 +1,71 @@
+:host(){
+    --yellow: #f3a81d;
+    --dark-blue: #0b0d21;
+    --light-white: #fafafa;
+    --light-blue: #4f7df9;
+    --light-pink: #e91e63;
+    --dull-blue: #1d1e33;
+    --orange: #fb8500;
+    --font-12: 12px;
+    --font-14: 14px;
+    --font-16: 16px;
+}
+.custom-icon{
+    --slds-c-icon-color-foreground-default: var(var(--yellow));
+    --slds-c-icon-color-background: var(--yellow);
+    --slds-c-icon-color-foreground: var(--dark-blue);
+    transform: rotate(45deg);
+    
+}
+.currency-app{
+    background: url(/sfsites/c/resource/currencyConverterAssets/currencyConverterAssets/currencyAppBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: var(--font-16);
+}
+
+.custom-card{
+    max-width: 540px;
+    background: rgb(32, 1, 61);
+    border-radius: 20px;
+    min-width: 380px;
+    padding: var(--font-16);
+}
+
+.custom-button, .custom-button:hover, .custom-button:active{
+    background: #f3a81d;
+    color: midnightblue;
+    padding: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.result{
+    font-size: var(--font-16);
+    margin-bottom: var(--font-16);
+    font-weight: bold;
+    color: var(--light-blue);
+}
+
+.result-to{
+    color: var(--orange);
+    
+}
